@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Quintin's super awesome Geometry Dash Website </title>
+        <link rel="stylesheet" type="text/CSS" href="Lauro_Quintin_styles.css">
+</head>
+<body>
+    <h1 class="hi"> thanks for coming to my website</h1>
+    <body style="background-image:url('data:image/jpeg;base64,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')">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Square Jumping Over Triangle</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #f0f0f0;
+    }
+
+    /* The square */
+    .square {
+      position: absolute;
+      bottom: 50px;
+      left: 50px;
+      width: 50px;
+      height: 50px;
+      background-color: #3498db;
+      transition: bottom 0.2s;
+    }
+
+    /* The triangle */
+    .triangle {
+      position: absolute;
+      bottom: 50px;
+      left: 400px;
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid #e74c3c;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="square" id="square"></div>
+  <div class="triangle" id="triangle"></div>
+
+  <script>
+    const square = document.getElementById('square');
+    const triangle = document.getElementById('triangle');
+    const triangleLeft = triangle.offsetLeft;
+    const triangleWidth = triangle.offsetWidth;
+
+    // Function to move the square
+    function moveSquare() {
+      let squareLeft = 50;
+      const screenWidth = window.innerWidth;
+
+      // Recursive function to move the square across the screen
+      function animateSquare() {
+        squareLeft += 5; // Speed of the square
+        square.style.left = `${squareLeft}px`;
+
+        // Check if the square needs to jump over the triangle
+        if (squareLeft + 50 >= triangleLeft && squareLeft <= triangleLeft + triangleWidth) {
+          jumpSquare();
+        }
+
+        // When the square moves off the screen, reset its position and start over
+        if (squareLeft >= screenWidth) {
+          squareLeft = -50; // Reset position to start again from the left
+        }
+
+        requestAnimationFrame(animateSquare);
+      }
+
+      animateSquare();
+    }
+
+    // Jump the square over the triangle
+    function jumpSquare() {
+      square.style.transition = 'bottom 0.2s';
+      square.style.bottom = '150px'; // Jump height
+
+      setTimeout(() => {
+        square.style.bottom = '50px'; // Return to original position
+      }, 200);
+    }
+
+    // Start the movement when the page loads
+    window.onload = () => {
+      moveSquare();
+    };
+  </script>
+
+</body>
+</html>
+</body>
+</html>
