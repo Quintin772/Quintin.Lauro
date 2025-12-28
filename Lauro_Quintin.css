@@ -1,11 +1,11 @@
 /* Background image (move it to CSS instead of repeating <body style="..."> everywhere) */
-.gd-bg {
-  /* NOTE: Keep his base64 if you want, but it’s HUGE.
-     Better: upload an image file to the repo and use url("image.jpg") */
+.gd-bg{
+  background-image: url("data:image/jpeg;base64,PASTE-HIS-BASE64-HERE");
   background-size: cover;
   background-position: center;
   min-height: 100vh;
 }
+
 
 /* Nav */
 .gd-nav {
@@ -153,3 +153,4 @@ p {
   50% { transform: translateY(-110px); }
   100% { transform: translateY(0); }
 }
+
