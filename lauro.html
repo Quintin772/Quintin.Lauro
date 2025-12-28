@@ -1,54 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Top 5 Levels</title>
-  <link rel="stylesheet" href="Lauro_Quintin.css" />
+    <title>Top Levels</title>
+    <link rel="stylesheet" type="text/CSS" href="Lauro_Quintin.css">
 </head>
 
-<body class="gd-bg">
-  <nav class="gd-nav">
-    <a href="index.html">Home</a>
-    <a href="sam.html">Difficulty Rankings</a>
-    <a href="lauro.html">Top 5 Levels</a>
-    <a href="quintin.html">Thanks</a>
-  </nav>
+<body style="background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/...')">
 
-  <h1 class="hi">Top 5 Levels</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="sam.html">Difficulty</a>
+<a href="lauro.html">Top Levels</a>
+<a href="quintin.html">Thanks</a>
+</nav>
 
-  <main class="panel">
-    <ol class="ol1">
-      <li>Electrodynamix</li>
-      <li>Theory Of Everything</li>
-      <li>Hexagon Force</li>
-      <li>Fingerdash</li>
-      <li>Clubstep</li>
-    </ol>
+<h1 class="hi">Top 5 Levels</h1>
 
-    <!-- Mini “Geometry Dash” vibe game -->
-    <h2>Mini Jump Demo</h2>
-    <p>Press Space to jump!</p>
+<ol class="ol1">
+    <li>Electrodynamix</li>
+    <li>Theory Of Everything</li>
+    <li>Hexagon Force</li>
+    <li>FingerDash</li>
+    <li>ClubStep</li>
+</ol>
 
-    <div class="game">
-      <div class="square" id="square"></div>
-      <div class="triangle" id="triangle"></div>
-    </div>
+<a href="sam.html" class="beta">Next</a>
+<a href="index.html" class="sigma">Previous</a>
 
-    <a href="sam.html" class="beta">Next</a>
-    <a href="index.html" class="sigma">Previous</a>
-  </main>
-
-  <script>
-    // Simple jump on spacebar
-    const square = document.getElementById('square');
-
-    document.addEventListener('keydown', (e) => {
-      if (e.code === 'Space') {
-        square.classList.add('jump');
-        setTimeout(() => square.classList.remove('jump'), 250);
-      }
-    });
-  </script>
 </body>
 </html>
