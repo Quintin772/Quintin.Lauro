@@ -16,28 +16,22 @@
 
 <h1 class="hi">Thanks for coming to my website</h1>
 
-<div class="square" id="square"></div>
-<div class="triangle" id="triangle"></div>
-
+<button onclick="askQuestion('What\'s your favorite Geometry Dash level?')"> Quick question? </button>
+<script src="script.js"></script>
 <script>
-const square = document.getElementById('square');
-let squareLeft = 50;
-
-function animateSquare() {
-    squareLeft += 5;
-    square.style.left = squareLeft + "px";
-    if (squareLeft > window.innerWidth) {
-        squareLeft = -50;
-    }
-    requestAnimationFrame(animateSquare);
+function askQuestion(question) {
+    alert(question);
 }
+function askQuestion(question) {
+    let answer = prompt(question); 
+    if (answer) {
+        alert("Oh, " + answer + " I love that one!");
+    }
+}
+</script>
 
-animateSquare();
 </script>
 
 </body>
 </html>
-
-
-
 
